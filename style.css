@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    padding: 10px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.hero{
+    height: 100vh;
+    background-image: url('image/hero.jpg');
+    background-size: cover;
+    width: 100%;
+}
+.hero-text{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.hero-text h1{
+    width: 50%;
+    font-size: 5rem;
+}
+.inline{
+    width: 450px;
+}
+.input-field{
+    width: 300px;
+    padding: 8px 8px 8px 30px;
+    border: 1px solid grey;
+}
+.input-icon .sec-search{
+    position: absolute;
+    padding: 10px;
+    min-width: 20px;
+}
+.hero-btn{
+    padding: 8px 20px;
+    background-color: #ff8800;
+    border: none;
+    color: #fff;
+}
