@@ -90,9 +90,20 @@ nav ul li a{
     cursor: pointer;
     margin-top: 20px;
 }
+.food-sec{
+    overflow: hidden;
+    width: 70%;
+    margin: 0 auto;
+}
 .food-img img{
     width: 200px;
-}
-.food-img{
     float: left;
+    height: 300px;
+    margin: 20px;
+}
+.order-section h5{
+    text-align: center;
+}
+.order-section h2{
+    text-align: center;
 }
