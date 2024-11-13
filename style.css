@@ -107,3 +107,23 @@ nav ul li a{
 .order-section h2{
     text-align: center;
 }
+.order-section{
+    text-align: center;
+}
+.order-section{
+    margin: 0 auto;
+    width: 400px;
+    margin-bottom: 5vh;  
+    padding: 0;
+    border-bottom: 2px solid rgba(119, 119, 119, 0.2);
+    list-style: none;
+    display: table;
+}
+
+.order-section{
+    display: table-cell;
+    padding-bottom: 1rem;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+}
