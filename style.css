@@ -102,15 +102,17 @@ nav ul li a{
     margin: 20px;
 }
 .order-section h5{
-    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #FF8C00;
 }
 .order-section h2{
-    text-align: center;
+    font-size: 50px;
 }
 .order-section{
     text-align: center;
 }
-.order-section{
+.order-section ul{
     margin: 0 auto;
     width: 400px;
     margin-bottom: 5vh;  
@@ -119,11 +121,32 @@ nav ul li a{
     list-style: none;
     display: table;
 }
-
-.order-section{
+.order-section ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.order-section li{
     display: table-cell;
     padding-bottom: 1rem;
     position: relative;
     text-align: center;
     font-weight: 700;
+}
+.meal{
+    margin-top: 10px;
+}
+
+.order-section li a:hover {
+    color: #e58833;
+    cursor: pointer;
+}
+.meal li:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #FFA500;
+    cursor: pointer;
 }
