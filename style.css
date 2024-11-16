@@ -227,4 +227,34 @@ nav ul li a{
     aspect-ratio: 16 / 9; 
     margin: 0 auto; 
 }
-  
+.review{
+    text-align: center;
+}
+.review h2{
+    font-size: 3.5rem;
+}
+.review h5{
+    color: #ff8800;
+}
+.review > div img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.customer{
+    font-size: 1.7rem;
+}
+.small{
+    color: #777;
+}
+.review > div > div span i{
+    font-size: 20px;
+    color: #ff8800;
+}
+.review > div > div{
+    margin-top: 10px;
+}
+blockquote{
+    width: 50%;
+    margin: 10px auto;
+}
